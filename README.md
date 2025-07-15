@@ -87,12 +87,6 @@ The dashboard should now be accessible at `http://localhost:3000`.
 *   `public/`: Static assets, including the generated `climate_model.pkl` and `climate-predictions.json` files.
 *   `requirements.txt`: Python package dependencies.
 
-## Data Source
 
-The model is trained on a historical climate dataset. You can provide your own `climate_change_dataset.csv` in the `scripts` directory, or a synthetic dataset will be generated for demonstration purposes.
-
-## Contributing
-
-Feel free to fork the repository, make improvements, and submit pull requests.
 
 ---
