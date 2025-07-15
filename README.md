@@ -83,9 +83,7 @@ The dashboard should now be accessible at `http://localhost:3000`.
     *   `scripts/initialize_data.py`: Initializes the model and generates sample data if no dataset is found.
     *   `scripts/retrain_model.py`: Script to force model retraining.
     *   `scripts/setup.py`: Installs Python requirements and runs initial model setup.
-    *   `scripts/run_model.bat`: Windows batch script to run the setup.
 *   `public/`: Static assets, including the generated `climate_model.pkl` and `climate-predictions.json` files.
-*   `requirements.txt`: Python package dependencies.
 
 
 
