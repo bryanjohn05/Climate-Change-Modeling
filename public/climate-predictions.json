@@ -1,0 +1,413 @@
+{
+  "future_predictions": [
+    {
+      "year": 2024,
+      "predicted_temperature": 22.01,
+      "temperature_anomaly": 2.13,
+      "uncertainty": 8.543
+    },
+    {
+      "year": 2025,
+      "predicted_temperature": 20.99,
+      "temperature_anomaly": 1.11,
+      "uncertainty": 8.543
+    },
+    {
+      "year": 2026,
+      "predicted_temperature": 20.81,
+      "temperature_anomaly": 0.92,
+      "uncertainty": 8.543
+    },
+    {
+      "year": 2027,
+      "predicted_temperature": 21.12,
+      "temperature_anomaly": 1.24,
+      "uncertainty": 8.543
+    },
+    {
+      "year": 2028,
+      "predicted_temperature": 20.72,
+      "temperature_anomaly": 0.83,
+      "uncertainty": 8.543
+    },
+    {
+      "year": 2029,
+      "predicted_temperature": 20.69,
+      "temperature_anomaly": 0.81,
+      "uncertainty": 8.543
+    },
+    {
+      "year": 2030,
+      "predicted_temperature": 20.84,
+      "temperature_anomaly": 0.95,
+      "uncertainty": 8.543
+    }
+  ],
+  "monthly_data": [
+    {
+      "month": "Jan",
+      "temperature": 22.9,
+      "month_num": 1
+    },
+    {
+      "month": "Feb",
+      "temperature": 22.2,
+      "month_num": 2
+    },
+    {
+      "month": "Mar",
+      "temperature": 22.4,
+      "month_num": 3
+    },
+    {
+      "month": "Apr",
+      "temperature": 22.67,
+      "month_num": 4
+    },
+    {
+      "month": "May",
+      "temperature": 22.59,
+      "month_num": 5
+    },
+    {
+      "month": "Jun",
+      "temperature": 21.65,
+      "month_num": 6
+    },
+    {
+      "month": "Jul",
+      "temperature": 21.2,
+      "month_num": 7
+    },
+    {
+      "month": "Aug",
+      "temperature": 21.83,
+      "month_num": 8
+    },
+    {
+      "month": "Sep",
+      "temperature": 21.92,
+      "month_num": 9
+    },
+    {
+      "month": "Oct",
+      "temperature": 21.31,
+      "month_num": 10
+    },
+    {
+      "month": "Nov",
+      "temperature": 22.72,
+      "month_num": 11
+    },
+    {
+      "month": "Dec",
+      "temperature": 22.95,
+      "month_num": 12
+    }
+  ],
+  "model_info": {
+    "train_score": 0.8191379211121268,
+    "test_score": -0.08268262518324487,
+    "mae": 7.276961458411234,
+    "rmse": 8.589336457873173,
+    "feature_count": 9,
+    "model_type": "Random Forest Regressor",
+    "data_source": "Historical Climate Dataset (Updated)",
+    "model_version": "2.5"
+  },
+  "sample_data": [
+    {
+      "Year": 2000,
+      "AverageTemperature": 20.50188679245283,
+      "CO2 Emissions (Tons/Capita)": 11.224528301886792,
+      "Sea Level Rise (mm)": 2.939622641509434,
+      "Rainfall (mm)": 1687.7358490566037,
+      "Population": 624658004.1886792,
+      "Renewable Energy (%)": 27.566037735849058,
+      "Extreme Weather Events": 7.830188679245283,
+      "Forest Area (%)": 41.890566037735844
+    },
+    {
+      "Year": 2001,
+      "AverageTemperature": 20.117073170731707,
+      "CO2 Emissions (Tons/Capita)": 9.929268292682927,
+      "Sea Level Rise (mm)": 3.273170731707317,
+      "Rainfall (mm)": 1756.9024390243903,
+      "Population": 662940256.2926829,
+      "Renewable Energy (%)": 25.658536585365855,
+      "Extreme Weather Events": 7.682926829268292,
+      "Forest Area (%)": 42.21707317073171
+    },
+    {
+      "Year": 2002,
+      "AverageTemperature": 21.43333333333333,
+      "CO2 Emissions (Tons/Capita)": 9.933333333333334,
+      "Sea Level Rise (mm)": 2.952941176470588,
+      "Rainfall (mm)": 1928.7450980392157,
+      "Population": 578164503.5490196,
+      "Renewable Energy (%)": 25.860784313725492,
+      "Extreme Weather Events": 7.0588235294117645,
+      "Forest Area (%)": 41.062745098039215
+    },
+    {
+      "Year": 2003,
+      "AverageTemperature": 18.21951219512195,
+      "CO2 Emissions (Tons/Capita)": 11.085365853658537,
+      "Sea Level Rise (mm)": 2.9341463414634146,
+      "Rainfall (mm)": 1826.7073170731708,
+      "Population": 669809647.9512196,
+      "Renewable Energy (%)": 26.58780487804878,
+      "Extreme Weather Events": 7.975609756097561,
+      "Forest Area (%)": 39.165853658536584
+    },
+    {
+      "Year": 2004,
+      "AverageTemperature": 18.804000000000002,
+      "CO2 Emissions (Tons/Capita)": 10.0,
+      "Sea Level Rise (mm)": 2.79,
+      "Rainfall (mm)": 1713.92,
+      "Population": 692544331.56,
+      "Renewable Energy (%)": 29.47,
+      "Extreme Weather Events": 6.42,
+      "Forest Area (%)": 42.238
+    },
+    {
+      "Year": 2005,
+      "AverageTemperature": 19.532432432432433,
+      "CO2 Emissions (Tons/Capita)": 8.537837837837838,
+      "Sea Level Rise (mm)": 2.937837837837838,
+      "Rainfall (mm)": 1594.945945945946,
+      "Population": 801297257.081081,
+      "Renewable Energy (%)": 24.71081081081081,
+      "Extreme Weather Events": 7.702702702702703,
+      "Forest Area (%)": 40.73513513513514
+    },
+    {
+      "Year": 2006,
+      "AverageTemperature": 19.805128205128206,
+      "CO2 Emissions (Tons/Capita)": 10.497435897435897,
+      "Sea Level Rise (mm)": 3.0564102564102567,
+      "Rainfall (mm)": 1946.974358974359,
+      "Population": 735391835.8461539,
+      "Renewable Energy (%)": 29.35641025641026,
+      "Extreme Weather Events": 7.666666666666667,
+      "Forest Area (%)": 40.702564102564104
+    },
+    {
+      "Year": 2007,
+      "AverageTemperature": 20.5625,
+      "CO2 Emissions (Tons/Capita)": 10.334999999999999,
+      "Sea Level Rise (mm)": 2.8225000000000002,
+      "Rainfall (mm)": 1662.4,
+      "Population": 657283988.625,
+      "Renewable Energy (%)": 24.369999999999997,
+      "Extreme Weather Events": 7.6,
+      "Forest Area (%)": 42.1875
+    },
+    {
+      "Year": 2008,
+      "AverageTemperature": 19.144444444444446,
+      "CO2 Emissions (Tons/Capita)": 10.375,
+      "Sea Level Rise (mm)": 3.0305555555555554,
+      "Rainfall (mm)": 1724.3333333333333,
+      "Population": 650472606.0833334,
+      "Renewable Energy (%)": 28.297222222222224,
+      "Extreme Weather Events": 8.0,
+      "Forest Area (%)": 43.02222222222222
+    },
+    {
+      "Year": 2009,
+      "AverageTemperature": 19.73030303030303,
+      "CO2 Emissions (Tons/Capita)": 10.363636363636363,
+      "Sea Level Rise (mm)": 2.7606060606060603,
+      "Rainfall (mm)": 1581.4242424242425,
+      "Population": 705195323.6363636,
+      "Renewable Energy (%)": 25.884848484848487,
+      "Extreme Weather Events": 6.090909090909091,
+      "Forest Area (%)": 44.2939393939394
+    },
+    {
+      "Year": 2010,
+      "AverageTemperature": 17.96333333333333,
+      "CO2 Emissions (Tons/Capita)": 9.873333333333333,
+      "Sea Level Rise (mm)": 3.1300000000000003,
+      "Rainfall (mm)": 1712.9666666666667,
+      "Population": 720917740.3666667,
+      "Renewable Energy (%)": 24.733333333333334,
+      "Extreme Weather Events": 7.266666666666667,
+      "Forest Area (%)": 40.92333333333333
+    },
+    {
+      "Year": 2011,
+      "AverageTemperature": 18.856818181818184,
+      "CO2 Emissions (Tons/Capita)": 9.80909090909091,
+      "Sea Level Rise (mm)": 3.027272727272727,
+      "Rainfall (mm)": 1862.8181818181818,
+      "Population": 820591348.7272727,
+      "Renewable Energy (%)": 27.202272727272728,
+      "Extreme Weather Events": 6.636363636363637,
+      "Forest Area (%)": 41.038636363636364
+    },
+    {
+      "Year": 2012,
+      "AverageTemperature": 17.56904761904762,
+      "CO2 Emissions (Tons/Capita)": 10.640476190476189,
+      "Sea Level Rise (mm)": 2.95,
+      "Rainfall (mm)": 1611.8095238095239,
+      "Population": 696570931.5476191,
+      "Renewable Energy (%)": 27.728571428571428,
+      "Extreme Weather Events": 6.857142857142857,
+      "Forest Area (%)": 38.226190476190474
+    },
+    {
+      "Year": 2013,
+      "AverageTemperature": 18.82903225806452,
+      "CO2 Emissions (Tons/Capita)": 11.135483870967741,
+      "Sea Level Rise (mm)": 2.97741935483871,
+      "Rainfall (mm)": 1615.7096774193549,
+      "Population": 655980659.3870968,
+      "Renewable Energy (%)": 26.345161290322583,
+      "Extreme Weather Events": 8.258064516129032,
+      "Forest Area (%)": 35.86129032258064
+    },
+    {
+      "Year": 2014,
+      "AverageTemperature": 20.83409090909091,
+      "CO2 Emissions (Tons/Capita)": 11.409090909090908,
+      "Sea Level Rise (mm)": 3.122727272727273,
+      "Rainfall (mm)": 1722.590909090909,
+      "Population": 728914677.8863636,
+      "Renewable Energy (%)": 28.497727272727275,
+      "Extreme Weather Events": 6.886363636363637,
+      "Forest Area (%)": 37.434090909090905
+    },
+    {
+      "Year": 2015,
+      "AverageTemperature": 19.91627906976744,
+      "CO2 Emissions (Tons/Capita)": 9.667441860465116,
+      "Sea Level Rise (mm)": 3.0534883720930237,
+      "Rainfall (mm)": 1681.9767441860465,
+      "Population": 627998207.9302325,
+      "Renewable Energy (%)": 30.73720930232558,
+      "Extreme Weather Events": 8.046511627906977,
+      "Forest Area (%)": 40.097674418604655
+    },
+    {
+      "Year": 2016,
+      "AverageTemperature": 21.16078431372549,
+      "CO2 Emissions (Tons/Capita)": 10.398039215686273,
+      "Sea Level Rise (mm)": 3.007843137254902,
+      "Rainfall (mm)": 1609.3921568627452,
+      "Population": 752546334.1764706,
+      "Renewable Energy (%)": 28.466666666666665,
+      "Extreme Weather Events": 6.9411764705882355,
+      "Forest Area (%)": 40.20980392156862
+    },
+    {
+      "Year": 2017,
+      "AverageTemperature": 19.478125,
+      "CO2 Emissions (Tons/Capita)": 8.234375,
+      "Sea Level Rise (mm)": 2.875,
+      "Rainfall (mm)": 1959.71875,
+      "Population": 904173825.34375,
+      "Renewable Energy (%)": 30.834375,
+      "Extreme Weather Events": 6.84375,
+      "Forest Area (%)": 39.7875
+    },
+    {
+      "Year": 2018,
+      "AverageTemperature": 23.25,
+      "CO2 Emissions (Tons/Capita)": 10.443478260869565,
+      "Sea Level Rise (mm)": 3.0217391304347827,
+      "Rainfall (mm)": 1725.891304347826,
+      "Population": 675613252.8043479,
+      "Renewable Energy (%)": 27.058695652173913,
+      "Extreme Weather Events": 7.195652173913044,
+      "Forest Area (%)": 41.4804347826087
+    },
+    {
+      "Year": 2019,
+      "AverageTemperature": 20.4025,
+      "CO2 Emissions (Tons/Capita)": 9.8125,
+      "Sea Level Rise (mm)": 3.2,
+      "Rainfall (mm)": 1984.225,
+      "Population": 716974899.35,
+      "Renewable Energy (%)": 25.752499999999998,
+      "Extreme Weather Events": 8.2,
+      "Forest Area (%)": 45.7725
+    },
+    {
+      "Year": 2020,
+      "AverageTemperature": 19.044186046511626,
+      "CO2 Emissions (Tons/Capita)": 10.246511627906978,
+      "Sea Level Rise (mm)": 3.309302325581396,
+      "Rainfall (mm)": 1564.6511627906978,
+      "Population": 697982734.0232558,
+      "Renewable Energy (%)": 28.039534883720933,
+      "Extreme Weather Events": 5.930232558139535,
+      "Forest Area (%)": 40.0
+    },
+    {
+      "Year": 2021,
+      "AverageTemperature": 20.07608695652174,
+      "CO2 Emissions (Tons/Capita)": 11.521739130434783,
+      "Sea Level Rise (mm)": 3.0869565217391304,
+      "Rainfall (mm)": 1803.1739130434783,
+      "Population": 705737990.8695652,
+      "Renewable Energy (%)": 27.34130434782609,
+      "Extreme Weather Events": 7.913043478260869,
+      "Forest Area (%)": 39.12173913043478
+    },
+    {
+      "Year": 2022,
+      "AverageTemperature": 18.959999999999997,
+      "CO2 Emissions (Tons/Capita)": 12.326666666666668,
+      "Sea Level Rise (mm)": 2.96,
+      "Rainfall (mm)": 1766.4444444444443,
+      "Population": 750916269.0,
+      "Renewable Energy (%)": 26.71333333333333,
+      "Extreme Weather Events": 7.266666666666667,
+      "Forest Area (%)": 36.757777777777775
+    },
+    {
+      "Year": 2023,
+      "AverageTemperature": 21.107142857142858,
+      "CO2 Emissions (Tons/Capita)": 11.402380952380952,
+      "Sea Level Rise (mm)": 3.007142857142857,
+      "Rainfall (mm)": 1668.952380952381,
+      "Population": 773132207.3809524,
+      "Renewable Energy (%)": 26.75,
+      "Extreme Weather Events": 7.023809523809524,
+      "Forest Area (%)": 39.47380952380953
+    }
+  ],
+  "dataset_info": {
+    "total_records": 24,
+    "date_range": "2000 - 2023",
+    "features_used": [
+      "Year",
+      "CO2 Emissions (Tons/Capita)",
+      "Sea Level Rise (mm)",
+      "Rainfall (mm)",
+      "Population",
+      "Renewable Energy (%)",
+      "Extreme Weather Events",
+      "Forest Area (%)",
+      "Country_encoded"
+    ],
+    "temperature_stats": {
+      "mean_temp": 19.8831,
+      "std_temp": 8.542896784784157,
+      "min_temp": 5.0,
+      "max_temp": 34.9,
+      "CO2 Emissions (Tons/Capita)": 10.425799999999999,
+      "Sea Level Rise (mm)": 3.0096000000000003,
+      "Rainfall (mm)": 1738.761,
+      "Population": 705383046.613,
+      "Renewable Energy (%)": 27.3005,
+      "Extreme Weather Events": 7.291,
+      "Forest Area (%)": 40.572,
+      "Country_encoded": 7.12
+    }
+  }
+}
